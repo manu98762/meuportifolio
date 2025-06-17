@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+:root {
+
+    --rosa: #F8BBD0;
+
+    --lilas: #E1BEE7;
+
+    --branco: #FFFFFF;
+
+    --cinza: #555;
+
+}
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+body {
+
+    font-family: 'Quicksand', sans-serif;
+
+    background-color: var(--rosa);
+
+    color: var(--cinza);
+
+    padding: 20px;
+
+}
+
+.container {
+
+    max-width: 900px;
+
+    margin: 0 auto;
+
+    text-align: center;
+
+}
+
+header {
+
+    margin-bottom: 30px;
+
+}
+
+.avatar {
+
+    width: 140px;
+
+    height: 140px;
+
+    border-radius: 50%;
+
+    border: 4px solid var(--lilas);
+
+    margin-bottom: 15px;
+
+}
+
+h1 {
+
+    color: #b94dc2;
+
+    margin-bottom: 10px;
+
+}
+
+p {
+
+    font-size: 1.1em;
+
+    margin-bottom: 20px;
+
+}
+
+h2 {
+
+    color: #a84fc9;
+
+    margin-bottom: 20px;
+
+}
+
+.projects {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 20px;
+
+}
+
+.card {
+
+    background-color: var(--branco);
+
+    border-radius: 15px;
+
+    padding: 20px;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.card img {
+
+    max-width: 100%;
+
+    border-radius: 10px;
+
+    margin-bottom: 10px;
+
+}
+
+footer {
+
+    margin-top: 40px;
+
+    font-size: 0.9em;
+
+    color: #333;
+
+}
